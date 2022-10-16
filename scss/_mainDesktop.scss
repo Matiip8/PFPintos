@@ -1,0 +1,112 @@
+main {
+    display: block;
+    width: 100%;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+
+.inicio {
+    h1 {
+
+        font-size: 60px;
+        padding: 200px 50px 0px 50px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 45px;
+        padding: 0px 50px 250px 50px;
+        text-align: center;
+    }
+
+}
+
+
+
+.inicio-imagen .contenedor {
+    height: 100%;
+    width: 100%;
+    opacity: 0.88;
+
+
+
+}
+
+.sobre-nosotros {
+    h1 {
+        font-size: 40px;
+        padding: 60px 0px 30px 0px;
+
+        text-align: center;
+
+    }
+
+    p {
+        font-size: 20px;
+        padding: 0px 0px 60px 0px;
+
+        text-align: center;
+
+
+    }
+}
+
+.imagen-sobre-nosotros .contenedor {
+    height: 100%;
+    width: 100%;
+
+}
+
+.servicios {
+    h1 {
+        font-size: 40px;
+        padding: 60px 0px 30px 50px;
+        border-right: 30px;
+        text-align: center;
+
+
+    }
+    p {
+        font-size: 20px;
+        padding-right: 35px;
+        padding: 0px 70px 50px 50px;
+        text-align: center;
+    }
+
+}
+
+
+.imagen-servicios .contenedor {
+    display: flex;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.multimedia {
+    margin-top: 130px;
+    height: 700px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    max-height: 250px;
+    margin-top: 30px;
+    margin-left: 110px;
+}
+
+.cards img {
+    margin: 10px;
+    border: 3px solid rgb(127, 183, 126);
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    max-width: 250px;
+}
+
+
+

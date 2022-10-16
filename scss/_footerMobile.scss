@@ -1,0 +1,51 @@
+footer {
+
+    position: relative;
+    bottom: 0;
+    width: auto;
+    display: flexbox;
+    height: 120px;
+    background-color: var(--color-footer);
+    padding-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.p .parrafo {
+    display: flex;
+    padding-top: 20px;
+    color: rgb(99, 95, 95);
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+
+}
+
+
+#social {
+    padding-top: 20px;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.insta img {
+    height: 40px;
+    margin-left: 30px;
+}
+
+.facebook img {
+    height: 40px;
+    margin-left: 30px;
+}
+
+.wsp img {
+    height: 40px;
+    margin-left: 30px;
+}

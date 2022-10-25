@@ -1,4 +1,4 @@
-/* line 1, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/estilo.scss */
+/* line 1, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/estilo.scss */
 * {
   padding: 0;
   margin: 0;
@@ -6,14 +6,14 @@
   list-style: none;
 }
 
-/* line 1, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_variables.scss */
+/* line 1, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_variables.scss */
 :root {
   --color-header: #7fb77e;
   --color-footer: rgb(177, 215, 180);
 }
 
-@media (max-width: 768px) {
-  /* line 1, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_headerMobile.scss */
+@media (min-width: 375px) and (max-width: 850px) {
+  /* line 1, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_headerMobile.scss */
   header {
     background-color: var(--color-header);
     display: flexbox;
@@ -21,44 +21,43 @@
     align-items: center;
     padding: 10px;
   }
-  /* line 8, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_headerMobile.scss */
+  /* line 8, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_headerMobile.scss */
   header a, header li {
     font-family: 'Roboto', sans-serif;
     color: white;
     text-decoration: none;
   }
-  /* line 16, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_headerMobile.scss */
+  /* line 16, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_headerMobile.scss */
   .logo-header img {
     width: 50px;
     margin-left: 20px;
   }
-  /* line 21, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_headerMobile.scss */
+  /* line 21, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_headerMobile.scss */
   .menu-icon,
   #check {
     display: none;
   }
-  /* line 27, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_headerMobile.scss */
+  /* line 27, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_headerMobile.scss */
   .checkbtn {
     display: block;
   }
-  /* line 31, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_headerMobile.scss */
+  /* line 31, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_headerMobile.scss */
   .menu-icon {
     display: block;
     position: absolute;
-    top: 30px;
+    top: 24px;
     right: 30px;
   }
-  /* line 39, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_headerMobile.scss */
+  /* line 39, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_headerMobile.scss */
   .menu-icon img {
     height: 50px;
     position: static;
   }
-  /* line 48, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_headerMobile.scss */
+  /* line 48, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_headerMobile.scss */
   .nav-menu ul {
     display: block;
     position: absolute;
     top: 70px;
-    margin-top: 5px;
     left: -100%;
     background: #222;
     width: 100%;
@@ -69,11 +68,11 @@
     font-weight: 650;
     -webkit-transition: 0.2s ease-in-out 0s;
   }
-  /* line 65, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_headerMobile.scss */
+  /* line 64, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_headerMobile.scss */
   .nav-menu a:hover {
     color: #3ca114;
   }
-  /* line 68, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_headerMobile.scss */
+  /* line 67, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_headerMobile.scss */
   .nav-menu ul li {
     padding: 25px;
     display: flex;
@@ -81,16 +80,16 @@
     margin: 0;
     margin-top: 25px;
   }
-  /* line 76, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_headerMobile.scss */
+  /* line 75, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_headerMobile.scss */
   .nav-menu ul li:last-child {
     background: none;
     padding: 1rem;
   }
-  /* line 82, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_headerMobile.scss */
+  /* line 81, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_headerMobile.scss */
   #check:checked ~ ul {
     left: 0;
   }
-  /* line 1, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_mainMobile.scss */
+  /* line 1, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_mainMobile.scss */
   main {
     width: auto;
     display: flexbox;
@@ -98,79 +97,66 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: white;
   }
-  /* line 12, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_mainMobile.scss */
+  /* line 12, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_mainMobile.scss */
   .inicio h1 {
     font-size: 30px;
     padding: 50px 50px 0px 50px;
     text-align: center;
   }
-  /* line 19, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_mainMobile.scss */
+  /* line 19, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_mainMobile.scss */
   .inicio p {
     font-size: 20px;
     padding: 0px 50px 50px 50px;
     text-align: center;
   }
-  /* line 29, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_mainMobile.scss */
-  .inicio-imagen .Uno {
+  /* line 28, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_mainMobile.scss */
+  .inicio-imagen .contenedor {
     display: flex;
+    height: 100%;
     width: 100%;
     opacity: 0.88;
   }
-  /* line 37, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_mainMobile.scss */
-  .inicio-imagen .Dos {
-    display: flex;
-    width: 100%;
-    opacity: 0.88;
-  }
-  /* line 49, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_mainMobile.scss */
+  /* line 41, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_mainMobile.scss */
   .sobre-nosotros h1 {
     font-size: 30px;
     padding: 50px 50px 30px 50px;
     text-align: center;
   }
-  /* line 54, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_mainMobile.scss */
+  /* line 46, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_mainMobile.scss */
   .sobre-nosotros p {
     font-size: 20px;
     padding: 0px 50px 20px 50px;
     text-align: center;
   }
-  /* line 62, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_mainMobile.scss */
+  /* line 53, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_mainMobile.scss */
   .imagen-sobre-nosotros .contenedor {
     display: flex;
+    height: 100%;
     width: 100%;
-    opacity: 0.88;
-    z-index: -1;
   }
-  /* line 68, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_mainMobile.scss */
-  .imagen-sobre-nosotros .contenedorUno {
-    display: flex;
-    width: 100%;
-    opacity: 0.88;
-    z-index: -1;
-  }
-  /* line 77, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_mainMobile.scss */
+  /* line 61, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_mainMobile.scss */
   .servicios h1 {
     font-size: 30px;
     padding: 20px 50px 20px 20px;
     text-align: center;
   }
-  /* line 82, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_mainMobile.scss */
+  /* line 66, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_mainMobile.scss */
   .servicios p {
     font-size: 20px;
     padding: 0px 50px 50px 20px;
     text-align: center;
   }
-  /* line 89, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_mainMobile.scss */
-  .imagen-servicios contenedor {
+  /* line 73, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_mainMobile.scss */
+  .imagen-servicios .contenedor {
     display: flex;
     width: 100%;
     opacity: 0.9;
   }
-  /* line 96, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_mainMobile.scss */
+  /* line 79, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_mainMobile.scss */
   .multimedia {
     height: 1600px;
   }
-  /* line 101, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_mainMobile.scss */
+  /* line 84, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_mainMobile.scss */
   .cards {
     display: flex;
     flex-wrap: wrap;
@@ -179,63 +165,59 @@
     margin-top: 30px;
     margin-left: 50px;
   }
-  /* line 111, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_mainMobile.scss */
+  /* line 94, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_mainMobile.scss */
   .cards img {
     margin: 10px;
     border: 3px solid #7fb77e;
     box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
     max-width: 250px;
   }
-  /* line 1, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_footerMobile.scss */
+  /* line 1, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_footerMobile.scss */
   footer {
     position: relative;
     bottom: 0;
     width: auto;
     display: flexbox;
-    height: 120px;
+    height: 150px;
     background-color: var(--color-footer);
-    padding-right: 10px;
     justify-content: center;
     align-items: center;
   }
-  /* line 16, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_footerMobile.scss */
+  /* line 15, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_footerMobile.scss */
   .p .parrafo {
     display: flex;
     padding-top: 20px;
-    color: #635f5f;
+    color: black;
     justify-content: center;
     align-items: center;
     font-size: 10px;
   }
-  /* line 27, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_footerMobile.scss */
+  /* line 26, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_footerMobile.scss */
   #social {
     padding-top: 20px;
     display: flex;
-    padding-left: 20px;
-    padding-right: 20px;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
-  /* line 38, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_footerMobile.scss */
+  /* line 35, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_footerMobile.scss */
   .insta img {
     height: 40px;
-    margin-left: 30px;
   }
-  /* line 43, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_footerMobile.scss */
+  /* line 40, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_footerMobile.scss */
   .facebook img {
     height: 40px;
     margin-left: 30px;
   }
-  /* line 48, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_footerMobile.scss */
+  /* line 45, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_footerMobile.scss */
   .wsp img {
     height: 40px;
     margin-left: 30px;
   }
 }
 
-@media (min-width: 1024px) {
-  /* line 1, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_headerDesktop.scss */
+@media (min-width: 851px) and (max-width: 1400px)  {
+  /* line 1, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_headerDesktop.scss */
   header {
     background-color: var(--color-header);
     display: flex;
@@ -243,48 +225,48 @@
     align-items: center;
     padding: 10px;
   }
-  /* line 8, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_headerDesktop.scss */
+  /* line 8, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_headerDesktop.scss */
   header a, header li {
     font-family: 'Roboto', sans-serif;
     color: white;
     text-decoration: none;
   }
-  /* line 18, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_headerDesktop.scss */
+  /* line 18, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_headerDesktop.scss */
   .logo-header img {
     width: 60px;
     margin-left: 20px;
   }
-  /* line 23, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_headerDesktop.scss */
+  /* line 23, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_headerDesktop.scss */
   .logo-header img:hover {
     transform: scale(1.1);
     transition-duration: 3s;
   }
-  /* line 34, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_headerDesktop.scss */
+  /* line 34, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_headerDesktop.scss */
   .nav-menu ul {
     display: flex;
     align-items: center;
     font-weight: 600;
   }
-  /* line 41, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_headerDesktop.scss */
+  /* line 41, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_headerDesktop.scss */
   .nav-menu li {
     margin-right: 40px;
   }
-  /* line 45, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_headerDesktop.scss */
+  /* line 45, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_headerDesktop.scss */
   .nav-menu a:hover {
     color: black;
   }
-  /* line 53, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_headerDesktop.scss */
+  /* line 53, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_headerDesktop.scss */
   .menu.icon img {
     width: 30px;
     height: 30px;
     border-radius: 2px;
   }
-  /* line 59, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_headerDesktop.scss */
+  /* line 59, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_headerDesktop.scss */
   .menu-icon,
   #check {
     display: none;
   }
-  /* line 1, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_mainDesktop.scss */
+  /* line 1, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_mainDesktop.scss */
   main {
     display: block;
     width: 100%;
@@ -292,84 +274,85 @@
     font-family: 'Roboto', sans-serif;
     background-color: white;
   }
-  /* line 13, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_mainDesktop.scss */
+  /* line 13, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_mainDesktop.scss */
   .inicio h1 {
     font-size: 60px;
     padding: 200px 50px 0px 50px;
     text-align: center;
   }
-  /* line 20, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_mainDesktop.scss */
+  /* line 20, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_mainDesktop.scss */
   .inicio p {
     font-size: 45px;
     padding: 0px 50px 250px 50px;
     text-align: center;
   }
-  /* line 30, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_mainDesktop.scss */
+  /* line 30, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_mainDesktop.scss */
   .inicio-imagen .contenedor {
+    display: flex;
     height: 100%;
     width: 100%;
     opacity: 0.88;
   }
-  /* line 40, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_mainDesktop.scss */
+  /* line 41, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_mainDesktop.scss */
   .sobre-nosotros h1 {
     font-size: 40px;
     padding: 60px 0px 30px 0px;
     text-align: center;
   }
-  /* line 48, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_mainDesktop.scss */
+  /* line 49, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_mainDesktop.scss */
   .sobre-nosotros p {
     font-size: 20px;
     padding: 0px 0px 60px 0px;
     text-align: center;
   }
-  /* line 58, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_mainDesktop.scss */
+  /* line 59, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_mainDesktop.scss */
   .imagen-sobre-nosotros .contenedor {
+    display: flex;
     height: 100%;
     width: 100%;
   }
-  /* line 65, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_mainDesktop.scss */
+  /* line 67, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_mainDesktop.scss */
   .servicios h1 {
     font-size: 40px;
     padding: 60px 0px 30px 50px;
     border-right: 30px;
     text-align: center;
   }
-  /* line 73, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_mainDesktop.scss */
+  /* line 75, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_mainDesktop.scss */
   .servicios p {
     font-size: 20px;
     padding-right: 35px;
     padding: 0px 70px 50px 50px;
     text-align: center;
   }
-  /* line 83, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_mainDesktop.scss */
+  /* line 85, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_mainDesktop.scss */
   .imagen-servicios .contenedor {
     display: flex;
     width: 100%;
     opacity: 0.9;
   }
-  /* line 89, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_mainDesktop.scss */
+  /* line 91, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_mainDesktop.scss */
   .multimedia {
-    margin-top: 130px;
+    margin-top: 10px;
     height: 700px;
   }
-  /* line 94, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_mainDesktop.scss */
+  /* line 96, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_mainDesktop.scss */
   .cards {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
     flex-direction: row;
-    max-height: 250px;
-    margin-top: 30px;
-    margin-left: 110px;
+    max-height: 400px;
+    margin-top: 180px;
   }
-  /* line 104, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_mainDesktop.scss */
+  /* line 107, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_mainDesktop.scss */
   .cards img {
     margin: 10px;
     border: 3px solid #7fb77e;
     box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
-    max-width: 250px;
+    max-width: 300px;
   }
-  /* line 1, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_footerDesktop.scss */
+  /* line 1, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_footerDesktop.scss */
   footer {
     display: flex;
     height: 80px;
@@ -377,38 +360,38 @@
     justify-content: space-between;
     align-items: center;
   }
-  /* line 11, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_footerDesktop.scss */
+  /* line 11, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_footerDesktop.scss */
   .parrafo {
     margin-left: 30px;
   }
-  /* line 15, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_footerDesktop.scss */
+  /* line 15, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_footerDesktop.scss */
   footer p {
-    color: #635f5f;
+    color: black;
   }
-  /* line 20, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_footerDesktop.scss */
+  /* line 20, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_footerDesktop.scss */
   #social {
     display: flex;
     padding-left: 20px;
     padding-right: 20px;
   }
-  /* line 26, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_footerDesktop.scss */
+  /* line 26, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_footerDesktop.scss */
   .insta img {
     height: 25px;
     margin-left: 30px;
   }
-  /* line 31, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_footerDesktop.scss */
+  /* line 31, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_footerDesktop.scss */
   .facebook img {
     height: 25px;
     margin-left: 30px;
   }
-  /* line 36, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/_footerDesktop.scss */
+  /* line 36, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_footerDesktop.scss */
   .wsp img {
     height: 25px;
     margin-left: 30px;
   }
 }
 
-/* line 31, ../Estudio/Coderhouse/Preentrega/PreEntrega2Pintos/scss/estilo.scss */
+/* line 31, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/estilo.scss */
 .text-focus-in {
   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }

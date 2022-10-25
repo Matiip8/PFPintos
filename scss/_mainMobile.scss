@@ -25,22 +25,14 @@ main {
 
 }
 
-.inicio-imagen {
-    .Uno {
-        display: flex;
-        width: 100%;
-        opacity: 0.88;
+.inicio-imagen .contenedor {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    opacity: 0.88;
 
 
-    }
 
-    .Dos {
-        display: flex;
-        width: 100%;
-        opacity: 0.88;
-
-
-    }
 }
 
 
@@ -58,19 +50,11 @@ main {
     }
 }
 
-.imagen-sobre-nosotros {
-    .contenedor {
-        display: flex;
-        width: 100%;
-        opacity: 0.88;
-        z-index: -1;
-    }
-    .contenedorUno {
-        display: flex;
-        width: 100%;
-        opacity: 0.88;
-        z-index: -1;
-    }
+.imagen-sobre-nosotros .contenedor {
+    display: flex;
+    height: 100%;
+    width: 100%;
+
 }
 
 .servicios {
@@ -86,10 +70,9 @@ main {
     }
 } 
 
-.imagen-servicios contenedor {
+.imagen-servicios .contenedor {
     display: flex;
     width: 100%;
-
     opacity: 0.9;
 }
 

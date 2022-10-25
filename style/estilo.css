@@ -12,7 +12,7 @@
   --color-footer: rgb(177, 215, 180);
 }
 
-@media (min-width: 319px) and (max-width: 850px) {
+@media (max-width: 768px) {
   /* line 1, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_headerMobile.scss */
   header {
     background-color: var(--color-header);
@@ -53,7 +53,7 @@
     height: 50px;
     position: static;
   }
-  /* line 48, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_headerMobile.scss */
+  /* line 50, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_headerMobile.scss */
   .nav-menu ul {
     display: block;
     position: absolute;
@@ -68,11 +68,11 @@
     font-weight: 650;
     -webkit-transition: 0.2s ease-in-out 0s;
   }
-  /* line 64, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_headerMobile.scss */
+  /* line 66, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_headerMobile.scss */
   .nav-menu a:hover {
     color: #3ca114;
   }
-  /* line 67, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_headerMobile.scss */
+  /* line 69, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_headerMobile.scss */
   .nav-menu ul li {
     padding: 25px;
     display: flex;
@@ -80,12 +80,12 @@
     margin: 0;
     margin-top: 25px;
   }
-  /* line 75, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_headerMobile.scss */
+  /* line 77, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_headerMobile.scss */
   .nav-menu ul li:last-child {
     background: none;
     padding: 1rem;
   }
-  /* line 81, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_headerMobile.scss */
+  /* line 83, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_headerMobile.scss */
   #check:checked ~ ul {
     left: 0;
   }
@@ -178,7 +178,7 @@
     bottom: 0;
     width: auto;
     display: flexbox;
-    height: 150px;
+    height: 110px;
     background-color: var(--color-footer);
     justify-content: center;
     align-items: center;
@@ -216,7 +216,7 @@
   }
 }
 
-@media (min-width: 851px) and (max-width: 1400px)  {
+@media (min-width: 1024px) {
   /* line 1, ../Estudio/Coderhouse/preentrega/PreEntrega3Pintos/scss/_headerDesktop.scss */
   header {
     background-color: var(--color-header);
